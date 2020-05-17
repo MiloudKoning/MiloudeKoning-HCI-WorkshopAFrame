@@ -46,16 +46,13 @@ function position(){
 	myOtherBox.object3D.position.x = "2";
 	myOtherBox.object3D.position.y = "3";
 	myOtherBox.object3D.position.z = "-3";
-
-}
-
-function kleur(){
 	myOtherBox.object3D.color = "#34ebeb";
 }
+
 
 
 myOtherBox.addEventListener('click', function(){
 	position();
 	kleur();
-	console.log('andere positie en kleur');
+	console.log('andere positie');
 });
