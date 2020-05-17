@@ -42,11 +42,9 @@ myOtherBox.addEventListener('mouseleave', function(){
  //	console.log('grew');
  //});
 
-var positionspeed = 3;
-
 function position(){
-	myOtherBox.object3D.position.x = "3";
-	myOtherBox.object3D.position.y = "1";
+	myOtherBox.object3D.position.x = "2";
+	myOtherBox.object3D.position.y = "2";
 	myOtherBox.object3D.position.z = "-3";
 
 }
