@@ -26,15 +26,15 @@
         material="src: #wood"
         shadow 
         animation__mouseenter="
-          property: components.material.material.opacity; 
-          
-          to:  50; 
+          property: components.material.material.color; 
+          type: color; 
+          to:  #cc99ff; 
           startEvents: click; 
           dur: 500;"
         animation__mouseleave="
-          property: components.material.material.opacity; 
-          
-          to:  100; 
+          property: components.material.material.color; 
+          type: color; 
+          to:  #66ffcc; 
           startEvents: mouseleave; 
           dur: 500;">  
       </a-box>
