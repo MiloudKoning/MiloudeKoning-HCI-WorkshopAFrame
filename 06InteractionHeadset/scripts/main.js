@@ -44,12 +44,13 @@ myOtherBox.addEventListener('mouseleave', function(){
 
 function position(){
 	myOtherBox.object3D.position.x = "2";
-	myOtherBox.object3D.position.y = "2";
+	myOtherBox.object3D.position.y = "3";
 	myOtherBox.object3D.position.z = "-3";
+	myOtherBox.object = "#34ebeb";
 
 }
 
 myOtherBox.addEventListener('click', function(){
 	position();
-	console.log('andere positie');
+	console.log('andere positie en kleur');
 });
