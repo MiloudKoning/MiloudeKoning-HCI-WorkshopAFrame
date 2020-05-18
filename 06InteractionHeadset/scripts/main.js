@@ -42,15 +42,13 @@ myOtherBox.addEventListener('mouseleave', function(){
  //	console.log('grew');
  //});
 
+function position(){
+	myOtherBox.object3D.position.x = "2";
+	myOtherBox.object3D.position.y = "3";
+	myOtherBox.object3D.position.z = "-3";
+}
 
-
-//function position(){
-//	myOtherBox.object3D.position.x = "2";
-//	myOtherBox.object3D.position.y = "3";
-//	myOtherBox.object3D.position.z = "-3";
-//}
-
-//myOtherBox.addEventListener('click', function(){
-//	position();
-//	console.log('andere positie');
-//});
+myOtherBox.addEventListener('click', function(){
+	position();
+	console.log('andere positie');
+});
